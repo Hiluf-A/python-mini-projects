@@ -1,0 +1,27 @@
+# --- Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# --- Virtual environments
+.venv/
+venv/
+env/
+
+# --- Local config & secrets
+.env
+
+# --- Editors/OS noise
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- (Only if you use these tools; safe to keep)
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+.coverage*
